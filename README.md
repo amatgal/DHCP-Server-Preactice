@@ -2,7 +2,6 @@
 
 **Author:** *Álvaro Mateos Gálvez*  
 **Subject:** Network Services and Internet 
-**Date:** October 2025  
 
 ---
 
