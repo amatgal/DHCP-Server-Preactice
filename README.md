@@ -1,6 +1,6 @@
 # 🖧 DHCP Practice A – Vagrant + Debian
 
-**Author:** *Álvaro Mateos Gálvez*  
+**Author:** *Álvaro Mateos Gálvez & Raúl Ibáñez Sola*  
 **Subject:** Network Services and Internet 
 
 ---
