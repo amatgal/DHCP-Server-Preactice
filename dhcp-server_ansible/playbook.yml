@@ -1,0 +1,7 @@
+---
+- name: Configure DHCP server with Ansible
+  hosts: dhcp_server
+  become: true
+  roles:
+    - dhcp
+

@@ -1,0 +1,15 @@
+---
+dhcp_interface: eth2
+subnet: 192.168.57.0
+netmask: 255.255.255.0
+range_start: 192.168.57.25
+range_end: 192.168.57.50
+router: 192.168.57.10
+broadcast: 192.168.57.255
+dns1: 8.8.8.8
+dns2: 4.4.4.4
+domain: micasa.es
+fixed_mac: "08:00:27:bd:f9:18"
+fixed_ip: 192.168.57.4
+fixed_dns: 1.1.1.1
+

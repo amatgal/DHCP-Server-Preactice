@@ -1,0 +1,17 @@
+default-lease-time 86400;
+max-lease-time 691200;
+
+subnet {{ subnet }} netmask {{ netmask }} {
+  range {{ range_start }} {{ range_end }};
+  option broadcast-address {{ broadcast }};
+  option routers {{ router }};
+  option domain-name-servers {{ dns1 }}, {{ dns2 }};
+  option domain-name "{{ domain }}";
+}
+
+host c2 {
+  hardware ethernet {{ fixed_mac }};
+  fixed-address {{ fixed_ip }};
+  default-lease-time 3600;
+  option domain-name-servers {{ fixed_dns }};
+}
