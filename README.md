@@ -1,4 +1,4 @@
-# DHCP Server Practice
+# 🖧 DHCP Server Practice
 
 **Authors:** Álvaro Mateos Gálvez & Raúl Ibáñez Sola  
 **Date:** October 2025  
@@ -6,7 +6,7 @@
 
 ---
 
-## Project Overview
+## 📘 Project Overview
 This project demonstrates how to configure a **DHCP server** on Debian using **Vagrant** and **VirtualBox**.
 
 - `c1` → Dynamic IP  
@@ -30,6 +30,28 @@ DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to
 
 ---
 
+## ⚙️ Estructura de red
+
+| Máquina | Función | Red interna | Dirección IP |
+|----------|----------|-------------|---------------|
+| `server` | Servidor DHCP | `192.168.57.0/24` | `192.168.57.10` |
+| `c1` | Cliente DHCP dinámico | `192.168.57.0/24` | Rango `192.168.57.25-50` |
+| `c2` | Cliente DHCP con IP fija | `192.168.57.0/24` | `192.168.57.4` |
+
+---
+
+## 🧪 Comandos útiles
+Acción	                          Comando
+Verificar sintaxis del DHCP	     sudo dhcpd -t
+Reiniciar el servicio	           sudo systemctl restart isc-dhcp-server
+Ver el estado del servicio	        sudo systemctl status isc-dhcp-server
+Consultar logs	                    sudo journalctl -u isc-dhcp-server
+Consultar leases	                 cat /var/lib/dhcp/dhcpd.leases
+Liberar IP (cliente)	              sudo dhclient -r
+Renovar IP (cliente)	              sudo dhclient -v
+
+---
+
 ## Setup & Run
 1. Create a project folder & `Vagrantfile` for 3 VMs:  
    - `server` → DHCP server  
@@ -41,3 +63,5 @@ DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to
 ```bash
 vagrant up
 vagrant status
+
+
