@@ -1,0 +1,103 @@
+-- Journal begins at Fri 2025-10-03 08:02:11 UTC, ends at Fri 2025-10-17 09:02:01 UTC. --
+Oct 16 10:20:45 server dhcpd[384]: DHCPOFFER on 192.168.57.28 to 08:00:27:0f:49:82 (c1) via eth2
+Oct 16 10:20:45 server dhcpd[384]: DHCPREQUEST for 192.168.57.28 (192.168.57.10) from 08:00:27:0f:49:82 (c1) via eth2
+Oct 16 10:20:45 server dhcpd[384]: DHCPACK on 192.168.57.28 to 08:00:27:0f:49:82 (c1) via eth2
+Oct 16 10:21:06 server dhcpd[384]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 16 10:21:06 server dhcpd[384]: DHCPREQUEST for 192.168.57.4 from 08:00:27:bd:f9:18 via eth2
+Oct 16 10:21:06 server dhcpd[384]: DHCPACK on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 16 10:21:16 server dhcpd[384]: DHCPRELEASE of 192.168.57.4 from 08:00:27:bd:f9:18 via eth2 (not found)
+Oct 16 10:21:20 server dhcpd[384]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 16 10:21:20 server dhcpd[384]: DHCPDISCOVER from 08:00:27:bd:f9:18 via eth2
+Oct 16 10:21:20 server dhcpd[384]: DHCPOFFER on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 16 10:21:20 server dhcpd[384]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 16 10:21:20 server dhcpd[384]: DHCPREQUEST for 192.168.57.4 (192.168.57.10) from 08:00:27:bd:f9:18 via eth2
+Oct 16 10:21:20 server dhcpd[384]: DHCPACK on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 16 10:45:28 server dhcpd[384]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 16 10:45:28 server dhcpd[384]: DHCPREQUEST for 192.168.57.4 from 08:00:27:bd:f9:18 via eth2
+Oct 16 10:45:28 server dhcpd[384]: DHCPACK on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 16 10:47:19 server dhcpd[384]: DHCPRELEASE of 192.168.57.4 from 08:00:27:bd:f9:18 via eth2 (not found)
+Oct 16 10:47:38 server systemd[1]: Stopping LSB: DHCP server...
+Oct 16 10:47:38 server isc-dhcp-server[1261]: Stopping ISC DHCPv4 server: dhcpd.
+Oct 16 10:47:38 server systemd[1]: isc-dhcp-server.service: Succeeded.
+Oct 16 10:47:38 server systemd[1]: Stopped LSB: DHCP server.
+-- Boot 75d466ee8a21436682bdbbe6f351f098 --
+Oct 17 07:24:16 server systemd[1]: Starting LSB: DHCP server...
+Oct 17 07:24:16 server isc-dhcp-server[364]: Launching IPv4 server only.
+Oct 17 07:24:16 server dhcpd[385]: Wrote 0 deleted host decls to leases file.
+Oct 17 07:24:16 server dhcpd[385]: Wrote 0 new dynamic host decls to leases file.
+Oct 17 07:24:16 server dhcpd[385]: Wrote 5 leases to leases file.
+Oct 17 07:24:16 server dhcpd[385]: Server starting service.
+Oct 17 07:24:18 server isc-dhcp-server[364]: Starting ISC DHCPv4 server: dhcpd.
+Oct 17 07:24:18 server systemd[1]: Started LSB: DHCP server.
+Oct 17 07:24:41 server dhcpd[385]: receive_packet failed on eth2: Network is down
+Oct 17 07:25:02 server dhcpd[385]: DHCPREQUEST for 192.168.57.28 from 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 07:25:02 server dhcpd[385]: DHCPACK on 192.168.57.28 to 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 07:25:13 server dhcpd[385]: DHCPRELEASE of 192.168.57.28 from 08:00:27:0f:49:82 (c1) via eth2 (found)
+Oct 17 07:25:17 server dhcpd[385]: DHCPDISCOVER from 08:00:27:0f:49:82 via eth2
+Oct 17 07:25:17 server dhcpd[385]: DHCPOFFER on 192.168.57.28 to 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 07:25:17 server dhcpd[385]: DHCPREQUEST for 192.168.57.28 (192.168.57.10) from 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 07:25:17 server dhcpd[385]: DHCPACK on 192.168.57.28 to 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 07:25:37 server dhcpd[385]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 17 07:25:37 server dhcpd[385]: DHCPDISCOVER from 08:00:27:bd:f9:18 via eth2
+Oct 17 07:25:37 server dhcpd[385]: DHCPOFFER on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 17 07:25:37 server dhcpd[385]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 17 07:25:37 server dhcpd[385]: DHCPREQUEST for 192.168.57.4 (192.168.57.10) from 08:00:27:bd:f9:18 via eth2
+Oct 17 07:25:37 server dhcpd[385]: DHCPACK on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 17 07:25:56 server dhcpd[385]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 17 07:25:56 server dhcpd[385]: DHCPDISCOVER from 08:00:27:bd:f9:18 via eth2
+Oct 17 07:25:56 server dhcpd[385]: DHCPOFFER on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 17 07:25:56 server dhcpd[385]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 17 07:25:56 server dhcpd[385]: DHCPREQUEST for 192.168.57.4 (192.168.57.10) from 08:00:27:bd:f9:18 via eth2
+Oct 17 07:25:56 server dhcpd[385]: DHCPACK on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 17 07:29:19 server systemd[1]: Stopping LSB: DHCP server...
+Oct 17 07:29:19 server isc-dhcp-server[1432]: Stopping ISC DHCPv4 server: dhcpd.
+Oct 17 07:29:19 server systemd[1]: isc-dhcp-server.service: Succeeded.
+Oct 17 07:29:19 server systemd[1]: Stopped LSB: DHCP server.
+Oct 17 07:29:19 server systemd[1]: Starting LSB: DHCP server...
+Oct 17 07:29:19 server isc-dhcp-server[1444]: Launching IPv4 server only.
+Oct 17 07:29:19 server dhcpd[1459]: Wrote 0 deleted host decls to leases file.
+Oct 17 07:29:19 server dhcpd[1459]: Wrote 0 new dynamic host decls to leases file.
+Oct 17 07:29:19 server dhcpd[1459]: Wrote 5 leases to leases file.
+Oct 17 07:29:19 server dhcpd[1459]: Server starting service.
+Oct 17 07:29:21 server isc-dhcp-server[1444]: Starting ISC DHCPv4 server: dhcpd.
+Oct 17 07:29:21 server systemd[1]: Started LSB: DHCP server.
+Oct 17 07:50:17 server dhcpd[1459]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 17 07:50:17 server dhcpd[1459]: DHCPREQUEST for 192.168.57.4 from 08:00:27:bd:f9:18 via eth2
+Oct 17 07:50:17 server dhcpd[1459]: DHCPACK on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 17 07:58:56 server dhcpd[1459]: DHCPRELEASE of 192.168.57.28 from 08:00:27:0f:49:82 (c1) via eth2 (found)
+Oct 17 07:59:05 server systemd[1]: Stopping LSB: DHCP server...
+Oct 17 07:59:05 server isc-dhcp-server[2212]: Stopping ISC DHCPv4 server: dhcpd.
+Oct 17 07:59:05 server systemd[1]: isc-dhcp-server.service: Succeeded.
+Oct 17 07:59:05 server systemd[1]: Stopped LSB: DHCP server.
+-- Boot db608ef11faf4a0289d6d876c1a26a70 --
+Oct 17 08:16:24 server systemd[1]: Starting LSB: DHCP server...
+Oct 17 08:16:24 server isc-dhcp-server[364]: Launching IPv4 server only.
+Oct 17 08:16:24 server dhcpd[386]: Wrote 0 deleted host decls to leases file.
+Oct 17 08:16:24 server dhcpd[386]: Wrote 0 new dynamic host decls to leases file.
+Oct 17 08:16:24 server dhcpd[386]: Wrote 5 leases to leases file.
+Oct 17 08:16:24 server dhcpd[386]: Server starting service.
+Oct 17 08:16:26 server isc-dhcp-server[364]: Starting ISC DHCPv4 server: dhcpd.
+Oct 17 08:16:26 server systemd[1]: Started LSB: DHCP server.
+Oct 17 08:16:41 server dhcpd[386]: receive_packet failed on eth2: Network is down
+Oct 17 08:16:59 server dhcpd[386]: DHCPDISCOVER from 08:00:27:0f:49:82 via eth2
+Oct 17 08:17:00 server dhcpd[386]: DHCPOFFER on 192.168.57.28 to 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 08:17:00 server dhcpd[386]: DHCPREQUEST for 192.168.57.28 (192.168.57.10) from 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 08:17:00 server dhcpd[386]: DHCPACK on 192.168.57.28 to 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 08:17:19 server dhcpd[386]: DHCPRELEASE of 192.168.57.28 from 08:00:27:0f:49:82 (c1) via eth2 (found)
+Oct 17 08:17:24 server dhcpd[386]: DHCPDISCOVER from 08:00:27:0f:49:82 via eth2
+Oct 17 08:17:24 server dhcpd[386]: DHCPOFFER on 192.168.57.28 to 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 08:17:24 server dhcpd[386]: DHCPREQUEST for 192.168.57.28 (192.168.57.10) from 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 08:17:24 server dhcpd[386]: DHCPACK on 192.168.57.28 to 08:00:27:0f:49:82 (c1) via eth2
+Oct 17 08:17:44 server dhcpd[386]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 17 08:17:44 server dhcpd[386]: DHCPREQUEST for 192.168.57.4 from 08:00:27:bd:f9:18 via eth2
+Oct 17 08:17:44 server dhcpd[386]: DHCPACK on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 17 08:17:53 server dhcpd[386]: DHCPRELEASE of 192.168.57.4 from 08:00:27:bd:f9:18 via eth2 (not found)
+Oct 17 08:18:01 server dhcpd[386]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 17 08:18:01 server dhcpd[386]: DHCPDISCOVER from 08:00:27:bd:f9:18 via eth2
+Oct 17 08:18:01 server dhcpd[386]: DHCPOFFER on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 17 08:18:01 server dhcpd[386]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 17 08:18:01 server dhcpd[386]: DHCPREQUEST for 192.168.57.4 (192.168.57.10) from 08:00:27:bd:f9:18 via eth2
+Oct 17 08:18:01 server dhcpd[386]: DHCPACK on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
+Oct 17 08:41:31 server dhcpd[386]: uid lease 192.168.57.26 for client 08:00:27:bd:f9:18 is duplicate on 192.168.57.0/24
+Oct 17 08:41:31 server dhcpd[386]: DHCPREQUEST for 192.168.57.4 from 08:00:27:bd:f9:18 via eth2
+Oct 17 08:41:31 server dhcpd[386]: DHCPACK on 192.168.57.4 to 08:00:27:bd:f9:18 via eth2
