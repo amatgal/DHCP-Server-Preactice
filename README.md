@@ -21,7 +21,7 @@ Start VMs:
 vagrant up
 vagrant status
 
-🖥️ Server Config
+Server Config
 
 SSH into server:
 
@@ -44,14 +44,14 @@ Restart service:
 
 sudo systemctl restart isc-dhcp-server
 
-💻 Client Config
+Client Config
 
 Request IP on c1 and c2:
 
 sudo dhclient -v
 ip a
 
-📌 Fixed IP for c2
+Fixed IP for c2
 
 Get MAC address:
 
@@ -65,7 +65,7 @@ Restart server & renew IP on c2:
 sudo dhclient -r
 sudo dhclient -v
 
-📊 Logs & Leases
+Logs & Leases
 
 View logs:
 
@@ -76,7 +76,7 @@ Check leases:
 
 cat /var/lib/dhcp/dhcpd.leases
 
-✅ Conclusion
+Conclusion
 
 DHCP works for dynamic and fixed IPs
 
@@ -84,7 +84,7 @@ Safe testing in a virtual network
 
 Fixed IP ensures consistent device addressing
 
-🔧 Quick Commands
+Quick Commands
 ip a                   # Check interfaces
 sudo nano [file]        # Edit files
 sudo dhcpd -t           # Validate DHCP config
