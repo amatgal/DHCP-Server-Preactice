@@ -40,15 +40,17 @@ DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to
 
 ---
 
-## 🧪 Comandos útiles
-Acción	                          Comando
-Verificar sintaxis del DHCP	     sudo dhcpd -t
-Reiniciar el servicio	           sudo systemctl restart isc-dhcp-server
-Ver el estado del servicio	        sudo systemctl status isc-dhcp-server
-Consultar logs	                    sudo journalctl -u isc-dhcp-server
-Consultar leases	                 cat /var/lib/dhcp/dhcpd.leases
-Liberar IP (cliente)	              sudo dhclient -r
-Renovar IP (cliente)	              sudo dhclient -v
+## 🧪 Useful Commands
+
+| Action | Command |
+|--------|----------|
+| Verify DHCP configuration syntax | `sudo dhcpd -t` |
+| Restart the service | `sudo systemctl restart isc-dhcp-server` |
+| Check service status | `sudo systemctl status isc-dhcp-server` |
+| View logs | `sudo journalctl -u isc-dhcp-server` |
+| View active leases | `cat /var/lib/dhcp/dhcpd.leases` |
+| Release IP (client) | `sudo dhclient -r` |
+| Renew IP (client) | `sudo dhclient -v` |
 
 ---
 
