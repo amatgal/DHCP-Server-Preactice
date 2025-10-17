@@ -1,0 +1,81 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.4.1
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+lease 192.168.57.27 {
+  starts 5 2025/10/03 08:28:56;
+  ends 5 2025/10/03 08:44:17;
+  tstp 5 2025/10/03 08:44:17;
+  cltt 5 2025/10/03 08:28:56;
+  binding state free;
+  hardware ethernet 08:00:27:bd:f9:18;
+}
+lease 192.168.57.26 {
+  starts 5 2025/10/03 08:28:03;
+  ends 5 2025/10/03 08:45:15;
+  tstp 5 2025/10/03 08:45:15;
+  cltt 5 2025/10/03 08:28:03;
+  binding state free;
+  hardware ethernet 08:00:27:bd:f9:18;
+  uid "\377'\275\371\030\000\001\000\0010r@D\010\000'\275\371\030";
+}
+lease 192.168.57.25 {
+  starts 4 2025/10/09 08:53:55;
+  ends 5 2025/10/10 08:53:55;
+  tstp 5 2025/10/10 08:53:55;
+  cltt 4 2025/10/09 08:53:55;
+  binding state free;
+  hardware ethernet 08:00:27:0f:49:82;
+}
+lease 192.168.57.29 {
+  starts 4 2025/10/09 09:04:48;
+  ends 5 2025/10/10 09:04:48;
+  tstp 5 2025/10/10 09:04:48;
+  cltt 4 2025/10/09 09:04:48;
+  binding state free;
+  hardware ethernet 08:00:27:e7:0a:d7;
+}
+lease 192.168.57.28 {
+  starts 5 2025/10/17 07:25:17;
+  ends 5 2025/10/17 07:58:56;
+  tstp 5 2025/10/17 07:58:56;
+  cltt 5 2025/10/17 07:25:17;
+  binding state free;
+  hardware ethernet 08:00:27:0f:49:82;
+  uid "\377'\017I\202\000\001\000\0010r?\325\010\000'\017I\202";
+}
+server-duid "\000\001\000\0010rE*\010\000'\347\012\327";
+
+lease 192.168.57.28 {
+  starts 5 2025/10/17 08:17:00;
+  ends 6 2025/10/18 08:17:00;
+  cltt 5 2025/10/17 08:17:00;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:0f:49:82;
+  uid "\377'\017I\202\000\001\000\0010r?\325\010\000'\017I\202";
+  client-hostname "c1";
+}
+lease 192.168.57.28 {
+  starts 5 2025/10/17 08:17:00;
+  ends 5 2025/10/17 08:17:19;
+  tstp 5 2025/10/17 08:17:19;
+  cltt 5 2025/10/17 08:17:00;
+  binding state free;
+  hardware ethernet 08:00:27:0f:49:82;
+  uid "\377'\017I\202\000\001\000\0010r?\325\010\000'\017I\202";
+}
+lease 192.168.57.28 {
+  starts 5 2025/10/17 08:17:24;
+  ends 6 2025/10/18 08:17:24;
+  cltt 5 2025/10/17 08:17:24;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:0f:49:82;
+  uid "\377'\017I\202\000\001\000\0010r?\325\010\000'\017I\202";
+  client-hostname "c1";
+}
