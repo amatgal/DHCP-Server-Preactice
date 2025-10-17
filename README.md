@@ -6,7 +6,7 @@
 
 ---
 
-## 🔹 Project Overview
+## Project Overview
 This project demonstrates how to configure a **DHCP server** on Debian using **Vagrant** and **VirtualBox**.
 
 - `c1` → Dynamic IP  
@@ -19,7 +19,7 @@ This project demonstrates how to configure a **DHCP server** on Debian using **V
 
 ---
 
-## 📖 What is DHCP?
+## What is DHCP?
 DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to devices in a network, avoiding manual configuration.
 
 **Basic DHCP steps:**  
@@ -30,7 +30,7 @@ DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to
 
 ---
 
-## ⚡ Setup & Run
+## Setup & Run
 1. Create a project folder & `Vagrantfile` for 3 VMs:  
    - `server` → DHCP server  
    - `c1` → Client with dynamic IP  
